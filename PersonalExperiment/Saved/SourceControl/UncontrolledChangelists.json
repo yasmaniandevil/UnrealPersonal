@@ -5,10 +5,27 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"/Users/yasmine/Documents/Unreal CCNY/PersonalExpGIT/UnrealPersonal/PersonalExperiment/Content/Blueprints/BP_Collect.uasset",
 				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/PlatformLevel.umap",
 				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Blueprints/BP_Collect.uasset"
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Blueprints/BP_Collect.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_D5774B0B.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_F1EAF76C.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Cylinder_4EA12F65.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_24C4A348.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_B1989B35.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_F889711E.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_8385E02F.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Extrude_5E30B9A6.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Extrude_3B2A4A17.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_2729C530.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Boolean_24B20324.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_6F507327.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_47366C50.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/Box_662E06AA.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_616A5476.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_8CD0C3F7.uasset",
+				"C:/Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_08311D58.uasset",
+				"/Users/yasmine/Documents/Unreal CCNY/PersonalExpGIT/UnrealPersonal/PersonalExperiment/Content/Blueprints/BP_Collect.uasset"
 			]
 		}
 	]
