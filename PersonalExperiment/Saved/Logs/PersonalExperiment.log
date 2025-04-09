@@ -1720,3 +1720,11 @@ Sampler Limit: 32
 [2025.04.09-21.27.08:458][980]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/PlatformLevel_Auto140FF8CA54184EC721F1B47B281C0B412.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/Levels/PlatformLevel_Auto1.umap'
 [2025.04.09-21.27.08:458][980]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PlatformLevel' took 0.022
 [2025.04.09-21.27.08:458][980]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2025.04.09-21.30.43:590][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pulp.Pulp
+[2025.04.09-21.30.43:590][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pulp.Pulp
+[2025.04.09-21.30.43:591][774]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pulp.Pulp as actor: StaticMeshActor /Game/Levels/PlatformLevel.PlatformLevel:PersistentLevel.StaticMeshActor_6
+[2025.04.09-21.30.43:995][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.09-21.30.43:997][807]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2025.04.09-21.30.44:001][807]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pulp.Pulp
+[2025.04.09-21.30.44:001][807]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Pulp.Pulp
+[2025.04.09-21.30.44:002][807]LogActorFactory: Actor Factory spawned StaticMesh /Game/Pulp.Pulp as actor: StaticMeshActor /Game/Levels/PlatformLevel.PlatformLevel:PersistentLevel.StaticMeshActor_7
