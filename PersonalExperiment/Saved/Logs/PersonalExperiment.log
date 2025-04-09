@@ -1648,3 +1648,75 @@ Sampler Limit: 32
 [2025.04.09-21.16.45:369][241]AssetCheck: /Game/Material_0 Validating asset
 [2025.04.09-21.16.45:369][241]AssetCheck: /Game/Pulp Validating asset
 [2025.04.09-21.16.45:369][241]AssetCheck: /Game/Stem Validating asset
+[2025.04.09-21.17.08:318][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.09-21.17.08:413][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.04.09-21.17.08:425][521]LogSavePackage: Moving output files for package: /Game/Levels/PlatformLevel
+[2025.04.09-21.17.08:425][521]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/PlatformLevelBE3CAD854EF8DC784E1FD4BC3BAAD331.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/PlatformLevel.umap'
+[2025.04.09-21.17.08:436][521]LogFileHelpers: Saving map 'PlatformLevel' took 0.056
+[2025.04.09-21.17.08:444][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.170 ms (total: 1.52 sec)
+[2025.04.09-21.17.08:480][521]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.09-21.17.08:480][521]LogContentValidation: Enabled validators:
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.09-21.17.08:480][521]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.09-21.17.08:480][521]AssetCheck: /Game/Levels/PlatformLevel Validating asset
+[2025.04.09-21.18.40:506][287]Cmd: DELETE
+[2025.04.09-21.18.40:506][287]Cmd: ACTOR DELETE
+[2025.04.09-21.18.40:520][287]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.09-21.18.40:531][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.04.09-21.18.40:533][287]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: ================================================
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Total job queries 191, among them cache hits 19 (9.95%), DDC hits 150 (78.53%), Duplicates 3 (1.57%)
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Tracking 169 distinct input hashes that result in 149 distinct outputs (88.17%)
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: RAM used: 123.10 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Shaders Compiled: 19
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Average time worker was idle: 11.96 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.12 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Job execution time: average 2.73 s, max 4.67 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Job life time (pending + execution): average 2.83 s, max 4.78
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Shader code size: average 10.898 KiB, min 5.164 KiB, max 20.191 KiB
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.93 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.36 jobs/batch
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Average processing rate: 2.13 jobs/sec
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Total thread time: 24.77 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Total thread preprocess time: 2.558 s
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Percentage time preprocessing: 10.33%
+[2025.04.09-21.18.44:651][469]LogShaderCompilers: Display: Effective parallelization: 2.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 3.38 sec, max 3.38 sec, min 3.38 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 2.73 sec, max 2.73 sec, min 2.73 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 2.48 sec, max 2.64 sec, min 2.32 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 2.44 sec, max 2.67 sec, min 2.21 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 19.99% of total time (compiled    2 times, average 2.48 sec, max 2.64 sec, min 2.32 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 19.72% of total time (compiled    2 times, average 2.44 sec, max 2.67 sec, min 2.21 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 13.64% of total time (compiled    1 times, average 3.38 sec, max 3.38 sec, min 3.38 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                                 FLumenCardCS - 11.04% of total time (compiled    1 times, average 2.73 sec, max 2.73 sec, min 2.73 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 7.67% of total time (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: === Material stats ===
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Materials Translated:    142
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Material Translation Only: 0.04 s (52%)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: Material Cache Hits: 45 (32%)
+[2025.04.09-21.18.44:652][469]LogShaderCompilers: Display: ================================================
+[2025.04.09-21.20.34:335][798]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 674.062317
+[2025.04.09-21.20.35:337][801]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.09-21.20.35:337][801]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 674.728943, Update Interval: 342.544006
+[2025.04.09-21.26.24:383][848]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1024.109009
+[2025.04.09-21.26.25:383][851]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.09-21.26.25:383][851]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1024.775635, Update Interval: 314.018982
+[2025.04.09-21.27.08:447][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.04.09-21.27.08:457][980]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/PlatformLevel_Auto1
+[2025.04.09-21.27.08:458][980]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/PlatformLevel_Auto140FF8CA54184EC721F1B47B281C0B412.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/Levels/PlatformLevel_Auto1.umap'
+[2025.04.09-21.27.08:458][980]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PlatformLevel' took 0.022
+[2025.04.09-21.27.08:458][980]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
