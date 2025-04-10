@@ -3449,3 +3449,250 @@ Sampler Limit: 32
 [2025.04.10-00.45.19:175][800]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8416.531250
 [2025.04.10-00.45.19:268][806]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.04.10-00.45.19:268][806]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8416.609375, Update Interval: 305.733215
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: ================================================
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Total job queries 635, among them cache hits 310 (48.82%), DDC hits 179 (28.19%), Duplicates 4 (0.63%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Tracking 321 distinct input hashes that result in 225 distinct outputs (70.09%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: RAM used: 151.19 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Shaders Compiled: 142
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Jobs assigned 142, completed 142 (100%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Average time worker was idle: 148.15 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Job execution time: average 0.90 s, max 2.14 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 2.23
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Shader code size: average 7.577 KiB, min 4.113 KiB, max 14.348 KiB
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.78 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Jobs were issued in 142 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Average processing rate: 3.97 jobs/sec
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Total thread time: 71.508 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Total thread preprocess time: 8.051 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Percentage time preprocessing: 11.26%
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Effective parallelization: 2.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    8 times, average 0.93 sec, max 1.23 sec, min 0.81 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    8 times, average 0.75 sec, max 0.84 sec, min 0.65 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    8 times, average 0.71 sec, max 0.81 sec, min 0.64 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   28 times, average 0.61 sec, max 0.87 sec, min 0.50 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.83% of total time (compiled   28 times, average 0.61 sec, max 0.87 sec, min 0.50 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.36% of total time (compiled   28 times, average 0.42 sec, max 0.72 sec, min 0.33 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                                 FLumenCardPS - 10.78% of total time (compiled   18 times, average 0.43 sec, max 0.50 sec, min 0.37 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.36% of total time (compiled    8 times, average 0.93 sec, max 1.23 sec, min 0.81 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.40% of total time (compiled   18 times, average 0.37 sec, max 0.45 sec, min 0.33 sec)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: === Material stats ===
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Materials Translated:    240
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Material Total Translate Time: 0.25 s
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Material Translation Only: 0.05 s (20%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: Material Cache Hits: 38 (16%)
+[2025.04.10-00.46.20:722][280]LogShaderCompilers: Display: ================================================
+[2025.04.10-00.49.15:798][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.04.10-00.49.15:812][805]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/LightingLevel_Auto5
+[2025.04.10-00.49.15:812][805]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/LightingLevel_Auto52876CBE04519AF7B2AB12F9BB5226BA5.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/Levels/LightingLevel_Auto5.umap'
+[2025.04.10-00.49.15:813][805]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LightingLevel' took 0.026
+[2025.04.10-00.49.15:813][805]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2025.04.10-00.49.15:814][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Grey] ([1] browsable assets)...
+[2025.04.10-00.49.15:955][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Grey.M_Grey]
+[2025.04.10-00.49.15:955][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Grey]
+[2025.04.10-00.49.15:957][805]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_Grey_Auto5
+[2025.04.10-00.49.15:957][805]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_Grey_Auto58A2EF06C4394FDF3925052ABBEA5943D.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/M_Grey_Auto5.uasset'
+[2025.04.10-00.49.15:958][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Black] ([1] browsable assets)...
+[2025.04.10-00.49.15:995][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Black.M_Black]
+[2025.04.10-00.49.15:995][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Black]
+[2025.04.10-00.49.15:998][805]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_Black_Auto5
+[2025.04.10-00.49.15:998][805]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_Black_Auto55D71CB704FAA1769B3C89F976CB0C396.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/M_Black_Auto5.uasset'
+[2025.04.10-00.49.15:999][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_White] ([1] browsable assets)...
+[2025.04.10-00.49.16:034][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_White.M_White]
+[2025.04.10-00.49.16:034][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_White]
+[2025.04.10-00.49.16:036][805]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_White_Auto5
+[2025.04.10-00.49.16:036][805]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_White_Auto5AB1073A04FF55A510F6E3990552D089C.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/M_White_Auto5.uasset'
+[2025.04.10-00.49.16:037][805]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E] ([1] browsable assets)...
+[2025.04.10-00.49.16:037][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E]
+[2025.04.10-00.49.16:040][805]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E_Auto5
+[2025.04.10-00.49.16:040][805]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/CubeGridToolOutput_1A97238E_AutoAC9362C34FD9573576B830BBB2A04009.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/Autosaves/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E_Auto5.uasset'
+[2025.04.10-00.49.16:041][805]LogFileHelpers: Auto-saving content packages took 0.227
+[2025.04.10-00.50.55:438][104]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8752.664062
+[2025.04.10-00.50.56:438][107]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.10-00.50.56:438][107]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8753.331055, Update Interval: 346.477234
+[2025.04.10-00.52.58:099][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.10-00.52.58:206][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.04.10-00.52.58:212][537]LogSavePackage: Moving output files for package: /Game/Levels/LightingLevel
+[2025.04.10-00.52.58:212][537]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/LightingLevelB56A2A0744CDCD11BA521CA2B65487E8.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/LightingLevel.umap'
+[2025.04.10-00.52.58:229][537]LogFileHelpers: Saving map 'LightingLevel' took 0.062
+[2025.04.10-00.52.58:234][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.414 ms (total: 538.996 ms)
+[2025.04.10-00.52.58:266][537]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.10-00.52.58:266][537]LogContentValidation: Enabled validators:
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.10-00.52.58:266][537]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.10-00.52.58:266][537]AssetCheck: /Game/Levels/LightingLevel Validating asset
+[2025.04.10-00.53.18:221][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.10-00.53.18:340][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.04.10-00.53.18:346][932]LogSavePackage: Moving output files for package: /Game/Levels/LightingLevel
+[2025.04.10-00.53.18:347][932]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/LightingLevel7B6B89C24EDFA8A66A12A4AEBF2745A6.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/LightingLevel.umap'
+[2025.04.10-00.53.18:362][932]LogFileHelpers: Saving map 'LightingLevel' took 0.061
+[2025.04.10-00.53.18:367][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.409 ms (total: 685.406 ms)
+[2025.04.10-00.53.18:399][932]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.10-00.53.18:399][932]LogContentValidation: Enabled validators:
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.10-00.53.18:399][932]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.10-00.53.18:399][932]AssetCheck: /Game/Levels/LightingLevel Validating asset
+[2025.04.10-00.53.28:733][ 82]LogSlate: Window 'Message' being destroyed
+[2025.04.10-00.53.28:738][ 82]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/M_Grey.M_Grey
+(Selecting 'No' will cause all changes to be lost!)
+[2025.04.10-00.53.34:879][490]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.10-00.53.35:927][595]LogMaterialEditor: Applying material M_Grey
+[2025.04.10-00.53.36:048][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.10-00.53.36:209][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.04.10-00.53.40:055][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.10-00.53.40:171][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.04.10-00.53.40:176][886]LogSavePackage: Moving output files for package: /Game/Levels/LightingLevel
+[2025.04.10-00.53.40:177][886]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/LightingLevel65DF6D174436609A8CD2C691DA7D9D5A.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/LightingLevel.umap'
+[2025.04.10-00.53.40:192][886]LogFileHelpers: Saving map 'LightingLevel' took 0.060
+[2025.04.10-00.53.40:197][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.196 ms (total: 827.603 ms)
+[2025.04.10-00.53.40:248][886]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.10-00.53.40:248][886]LogContentValidation: Enabled validators:
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.10-00.53.40:248][886]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.10-00.53.40:248][886]AssetCheck: /Game/Levels/LightingLevel Validating asset
+[2025.04.10-00.53.43:118][974]LogSlate: Window 'Message' being destroyed
+[2025.04.10-00.53.43:122][974]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/M_Black.M_Black
+(Selecting 'No' will cause all changes to be lost!)
+[2025.04.10-00.53.43:182][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.10-00.53.43:343][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.10-00.53.44:113][974]LogSlate: Window 'Message' being destroyed
+[2025.04.10-00.53.44:138][974]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/M_White.M_White
+(Selecting 'No' will cause all changes to be lost!)
+[2025.04.10-00.53.44:196][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.04.10-00.53.44:359][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.10-00.53.44:373][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.10-00.53.45:756][974]LogSlate: Window 'Save Content' being destroyed
+[2025.04.10-00.53.45:793][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.10-00.53.45:833][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E] ([1] browsable assets)...
+[2025.04.10-00.53.45:833][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E]
+[2025.04.10-00.53.45:836][974]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E
+[2025.04.10-00.53.45:836][974]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/CubeGridToolOutput_1A97238E7DB1366A49AC6FA21722B583943A1412.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E.uasset'
+[2025.04.10-00.53.45:844][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Black] ([1] browsable assets)...
+[2025.04.10-00.53.45:942][974]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Black.M_Black]
+[2025.04.10-00.53.45:942][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Black]
+[2025.04.10-00.53.45:942][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Black" FILE="../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_Black.uasset" SILENT=true
+[2025.04.10-00.53.45:944][974]LogSavePackage: Moving output files for package: /Game/M_Black
+[2025.04.10-00.53.45:944][974]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_Black20954FA64A9C90FC7246C58CCB6DD46C.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_Black.uasset'
+[2025.04.10-00.53.45:948][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Grey] ([1] browsable assets)...
+[2025.04.10-00.53.45:965][974]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Grey.M_Grey]
+[2025.04.10-00.53.45:965][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Grey]
+[2025.04.10-00.53.45:965][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Grey" FILE="../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_Grey.uasset" SILENT=true
+[2025.04.10-00.53.45:967][974]LogSavePackage: Moving output files for package: /Game/M_Grey
+[2025.04.10-00.53.45:967][974]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_Grey97ECF74A44F99660423209AAF9F278CD.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_Grey.uasset'
+[2025.04.10-00.53.45:969][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_White] ([1] browsable assets)...
+[2025.04.10-00.53.45:983][974]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_White.M_White]
+[2025.04.10-00.53.45:984][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_White]
+[2025.04.10-00.53.45:984][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_White" FILE="../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_White.uasset" SILENT=true
+[2025.04.10-00.53.45:985][974]LogSavePackage: Moving output files for package: /Game/M_White
+[2025.04.10-00.53.45:985][974]LogSavePackage: Moving '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Saved/M_White28F0BFD34F97C4807D4037958D09E5E3.tmp' to '../../../../../../Users/batni/Documents/CCNY/PersonalExperimentGITUNREAL/UnrealPersonal/PersonalExperiment/Content/M_White.uasset'
+[2025.04.10-00.53.45:991][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 198.480 ms (total: 1.02 sec)
+[2025.04.10-00.53.46:062][974]LogStall: Shutdown...
+[2025.04.10-00.53.46:062][974]LogStall: Shutdown complete.
+[2025.04.10-00.53.46:311][974]LogSlate: Window 'PersonalExperiment - Unreal Editor' being destroyed
+[2025.04.10-00.53.46:498][974]LogContentValidation: Display: Starting to validate 4 assets
+[2025.04.10-00.53.46:498][974]LogContentValidation: Enabled validators:
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.10-00.53.46:499][974]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.10-00.53.46:499][974]AssetCheck: /Game/Levels/_GENERATED/Yasmine/CubeGridToolOutput_1A97238E Validating asset
+[2025.04.10-00.53.46:499][974]AssetCheck: /Game/M_Black Validating asset
+[2025.04.10-00.53.46:499][974]AssetCheck: /Game/M_Grey Validating asset
+[2025.04.10-00.53.46:499][974]AssetCheck: /Game/M_White Validating asset
+[2025.04.10-00.53.46:505][974]Cmd: QUIT_EDITOR
+[2025.04.10-00.53.46:506][974]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.04.10-00.53.46:525][975]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.04.10-00.53.46:527][975]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.04.10-00.53.46:528][975]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.04.10-00.53.46:534][975]LogWorld: UWorld::CleanupWorld for LightingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:535][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:584][975]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.04.10-00.53.46:597][975]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.04.10-00.53.46:622][975]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:622][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:624][975]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:624][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:625][975]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:625][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:625][975]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:626][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:626][975]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:626][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:627][975]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:627][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:627][975]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:627][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:627][975]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:627][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:628][975]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:628][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:628][975]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:628][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:629][975]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:629][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:629][975]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.10-00.53.46:629][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.10-00.53.46:652][975]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.04.10-00.53.46:672][975]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.04.10-00.53.46:673][975]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.04.10-00.53.46:673][975]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.04.10-00.53.47:545][975]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.04.10-00.53.47:545][975]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.04.10-00.53.47:545][975]LogAudio: Display: Audio Device unregistered from world 'LightingLevel'.
+[2025.04.10-00.53.47:546][975]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.04.10-00.53.47:547][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.10-00.53.47:554][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.10-00.53.47:583][975]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.04.10-00.53.47:583][975]LogAudio: Display: Audio Device Manager Shutdown
+[2025.04.10-00.53.47:584][975]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.04.10-00.53.47:589][975]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.04.10-00.53.47:591][975]LogExit: Preparing to exit.
+[2025.04.10-00.53.47:665][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.10-00.53.48:887][975]LogEditorDataStorage: Deinitializing
+[2025.04.10-00.53.49:310][975]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.04.10-00.53.49:483][975]LogExit: Editor shut down
+[2025.04.10-00.53.49:493][975]LogExit: Transaction tracking system shut down
+[2025.04.10-00.53.50:436][975]LogExit: Object subsystem successfully closed.
+[2025.04.10-00.53.50:500][975]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.04.10-00.53.51:198][975]LogMemoryProfiler: Shutdown
+[2025.04.10-00.53.51:198][975]LogNetworkingProfiler: Shutdown
+[2025.04.10-00.53.51:198][975]LoadingProfiler: Shutdown
+[2025.04.10-00.53.51:199][975]LogTimingProfiler: Shutdown
+[2025.04.10-00.53.52:480][975]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.04.10-00.53.52:483][975]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.04.10-00.53.52:484][975]LogNFORDenoise: NFORDenoise function shutting down
+[2025.04.10-00.53.52:492][975]RenderDocPlugin: plugin has been unloaded.
+[2025.04.10-00.53.52:541][975]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.04.10-00.53.52:541][975]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5710B1B1-46B7-B285-A4C1-D08FD5646339%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=c47e14fb4a7b3e35940a68a393077c39%7Cbf44d55a08e14ce0a6ca8c5b849f811b%7C65f8331a-c76c-4052-9647-220ed7af95c5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.04.10-00.53.53:099][975]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.04.10-00.53.53:140][975]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.04.10-00.53.53:140][975]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.04.10-00.53.53:143][975]LogPakFile: Destroying PakPlatformFile
+[2025.04.10-00.53.53:676][975]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.04.10-00.53.53:722][975]LogExit: Exiting.
+[2025.04.10-00.53.53:771][975]Log file closed, 04/09/25 20:53:53
